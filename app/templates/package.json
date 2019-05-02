@@ -1,0 +1,25 @@
+{
+  "name": "<%= packageName %>",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "build": "npm run clean && parcel build src/index.html --no-source-maps--public-url '.'",
+    "start": "parcel src/index.html --open",
+    "clean": "rimraf -rf dist"
+  },
+  "devDependencies": {
+    "eslint": "^5.x",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "parcel-bundler": "^1.x",
+    "parcel-plugin-json-url-loader": "^0.1.x",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "phaser": "^3.x"
+  }
+}

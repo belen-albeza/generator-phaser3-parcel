@@ -1,0 +1,26 @@
+{
+  "name": "generator-phaser3-parcel",
+  "version": "1.0.0",
+  "description": "A Yeoman generator for Phaser 3 projects, using Parcel as a bundler. It features ES6, eslint config and a basic project skeleton with a loading screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belen-albeza/generator-phaser3-parcel.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Belén \"Benko\" Albeza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belen-albeza/generator-phaser3-parcel/issues"
+  },
+  "homepage": "https://github.com/belen-albeza/generator-phaser3-parcel#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^3.2.0"
+  }
+}
