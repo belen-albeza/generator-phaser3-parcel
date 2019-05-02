@@ -56,8 +56,6 @@ class PhaserGenerator extends Generator {
     // create empty folders
     mkdirp.sync('src/prefabs')
     mkdirp.sync('src/assets/audio')
-
-    this.log('Happy coding! ✨🕹✨')
   }
 }
 
